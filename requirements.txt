@@ -1,0 +1,9 @@
+aiogram>=2.11.2,<3.0
+environs~=8.0.0
+httplib2~=0.19.1
+apiclient~=1.0.4
+oauth2client~=4.1.3
+aiogram-dialog==0.11.1
+aiogram-broadcaster~=0.0.5
+google-api-python-client~=2.3.0
+aioredis~=1.3.1

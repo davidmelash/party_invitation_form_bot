@@ -1,0 +1,20 @@
+version: "3.1"
+
+services:
+
+  tgbot:
+    container_name: regist_bot
+    build:
+      context: .
+    command: python app.py
+    restart: always
+    networks:
+      - botnet
+    env_file:
+      - ".env"
+    volumes:
+      - .:/src
+
+networks:
+  botnet:
+    driver: bridge
